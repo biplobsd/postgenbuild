@@ -34,7 +34,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '965730824';
+    var serviceWorkerVersion = '3340693466';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -44,9 +44,13 @@
 </head>
 <body>
   <picture id="splash">
-    <source srcset="splash/img/splash.gif" media="(prefers-color-scheme: light)">
-    <source srcset="splash/img/splash.gif" media="(prefers-color-scheme: dark)">
-    <img class="center" aria-hidden="true" src="splash/img/splash.gif" alt=""/>
+    <source srcset="splash/img/dark-4x.png" media="(prefers-color-scheme: light)">
+    <source srcset="splash/img/light-4x.png" media="(prefers-color-scheme: dark)">
+    <div class="center">
+      <img aria-hidden="true" src="splash/img/dark-4x.png" alt=""/>
+      <div class="loader">Loading...</div>
+    </div>
+    
   </picture>
   <script>
     window.addEventListener('load', function(ev) {
