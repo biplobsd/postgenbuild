@@ -88090,7 +88090,7 @@ yI(a){var s=0,r=A.H(t.H),q=this,p
 var $async$yI=A.I(function(b,c){if(b===1)return A.E(c,r)
 while(true)switch(s){case 0:q.bl(new A.Nl())
 s=2
-return A.D(A.a(q.x.a,"scrapingApi").yJ("https://biplobsd.github.io/"),$async$yI)
+return A.D(A.a(q.x.a,"scrapingApi").yJ("https://google.com/"),$async$yI)
 case 2:p=c
 q.y=p
 if(p)q.bl(new A.BB())
